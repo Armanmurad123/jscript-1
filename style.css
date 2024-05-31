@@ -1,0 +1,32 @@
+*{
+    margin: 0; 
+   padding: 0; 
+   box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section {
+    padding: 2em 0;
+    text-align: center;
+}
+.section-text h1 {
+    margin-bottom: 0.5em;
+    font-size: 2.5em; 
+}
+
+.section-text button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: rgb(255, 0, 0);
+    border-radius:10% ;
+    color: #fff;
+    border: none;
+}
+.section-text button:hover{
+    background-color: rgb(27, 27, 27);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
